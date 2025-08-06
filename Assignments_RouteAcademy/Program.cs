@@ -1,6 +1,4 @@
-﻿using Assignments_RouteAcademy.C44_G03_OOP03;
-using static Assignments_RouteAcademy.C44_G03_OOP02.Assignment02;
-
+﻿
 namespace Assignments_RouteAcademy
 {
     internal class Program
@@ -101,78 +99,81 @@ namespace Assignments_RouteAcademy
             // C44-G03-OOP03
 
             #region Part 1
-            Employee[] EmpArr = new Employee[3];
+            //Employee[] EmpArr = new Employee[3];
 
-            EmpArr[0] = new Employee(1, "Yehia NourEldin", Gender.Male, SecurityLevel.DBA, 25000, new HiringDate(10, 5, 2019));
-            EmpArr[1] = new Employee(2, "Mostafa Hany", Gender.Male, SecurityLevel.Guest, 18000, new HiringDate(15, 6, 2023));
-            EmpArr[2] = new Employee(3, "Mohamed Tarek", Gender.Male, SecurityLevel.Secretary, 12000, new HiringDate(20, 7, 2021));
+            //EmpArr[0] = new Employee(1, "Yehia NourEldin", Gender.Male, SecurityLevel.DBA, 25000, new HiringDate(10, 5, 2019));
+            //EmpArr[1] = new Employee(2, "Mostafa Hany", Gender.Male, SecurityLevel.Guest, 18000, new HiringDate(15, 6, 2023));
+            //EmpArr[2] = new Employee(3, "Mohamed Tarek", Gender.Male, SecurityLevel.Secretary, 12000, new HiringDate(20, 7, 2021));
 
-            Console.WriteLine("Before Sorting");
+            //Console.WriteLine("Before Sorting");
 
-            foreach (var emp in EmpArr)
-                Console.WriteLine(emp);
+            //foreach (var emp in EmpArr)
+            //    Console.WriteLine(emp);
 
-            Console.WriteLine("After Sorting");
+            //Console.WriteLine("After Sorting");
 
-            InsertionSort(EmpArr);
+            //InsertionSort(EmpArr);
 
-            foreach (var emp in EmpArr)
-                Console.WriteLine(emp);
+            //foreach (var emp in EmpArr)
+            //    Console.WriteLine(emp);
 
             #endregion
 
 
-            Console.WriteLine("==================================================================================");
+            //Console.WriteLine("==================================================================================");
 
 
             #region Part 2
-            EBook ebook = new EBook("C# in Depth", "Yehia NourEldin", "123456789", 5.6);
-            PrintedBook printedBook = new PrintedBook("Clean Code", "Robert C. Martin", "987654321", 464);
+            //EBook ebook = new EBook("C# in Depth", "Yehia NourEldin", "123456789", 5.6);
+            //PrintedBook printedBook = new PrintedBook("Clean Code", "Robert C. Martin", "987654321", 464);
 
-            Console.WriteLine("EBook Info");
-            ebook.DisplayInfo();
+            //Console.WriteLine("EBook Info");
+            //ebook.DisplayInfo();
 
-            Console.WriteLine("\nPrinted Book Info");
-            printedBook.DisplayInfo();
+            //Console.WriteLine("\nPrinted Book Info");
+            //printedBook.DisplayInfo();
             #endregion
+
+
+
         }
 
 
 
         #region Part 1
-        public static bool Compare(HiringDate d1, HiringDate d2)
-        {
-            if (d1.Year > d2.Year)
-                return true;
-            else if (d1.Year < d2.Year)
-                return false;
-            else
-            {
-                if (d1.Month > d2.Month)
-                    return true;
-                else if (d1.Month < d2.Month)
-                    return false;
-                else
-                    return d1.Day > d2.Day;
-            }
-        }
+        //public static bool Compare(HiringDate d1, HiringDate d2)
+        //{
+        //    if (d1.Year > d2.Year)
+        //        return true;
+        //    else if (d1.Year < d2.Year)
+        //        return false;
+        //    else
+        //    {
+        //        if (d1.Month > d2.Month)
+        //            return true;
+        //        else if (d1.Month < d2.Month)
+        //            return false;
+        //        else
+        //            return d1.Day > d2.Day;
+        //    }
+        //}
 
-        public static void InsertionSort(Employee[] arr)
-        {
-            for (int i = 1; i < arr.Length; i++)
-            {
-                Employee key = arr[i];
-                int j = i - 1;
+        //public static void InsertionSort(Employee[] arr)
+        //{
+        //    for (int i = 1; i < arr.Length; i++)
+        //    {
+        //        Employee key = arr[i];
+        //        int j = i - 1;
 
-                while (j >= 0 && Compare(arr[j].HireDate, key.HireDate))
-                {
-                    arr[j + 1] = arr[j];
-                    j--;
-                }
+        //        while (j >= 0 && Compare(arr[j].HireDate, key.HireDate))
+        //        {
+        //            arr[j + 1] = arr[j];
+        //            j--;
+        //        }
 
-                arr[j + 1] = key;
-            }
-        }
+        //        arr[j + 1] = key;
+        //    }
+        //}
 
         #endregion
     }

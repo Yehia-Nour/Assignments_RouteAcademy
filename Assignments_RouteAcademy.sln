@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignments_RouteAcademy", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{84140871-BEC2-4023-8DC2-46326B6F9B19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C44-G03-OOP04", "C44-G03-OOP04\C44-G03-OOP04.csproj", "{F497D5A7-0AD1-4255-A995-4EDE2E6CA275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{84140871-BEC2-4023-8DC2-46326B6F9B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84140871-BEC2-4023-8DC2-46326B6F9B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84140871-BEC2-4023-8DC2-46326B6F9B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F497D5A7-0AD1-4255-A995-4EDE2E6CA275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F497D5A7-0AD1-4255-A995-4EDE2E6CA275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F497D5A7-0AD1-4255-A995-4EDE2E6CA275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F497D5A7-0AD1-4255-A995-4EDE2E6CA275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
