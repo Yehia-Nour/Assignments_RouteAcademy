@@ -152,6 +152,10 @@ namespace Assignments_RouteAcademy.C44_G03_OOP03
             Console.WriteLine($"Page Count: {PageCount}");
         }
     } 
+    /* 
+        avoid duplication: because there are commmon properties like title, aother, ISBN
+        esily to add features later 
+     */
     #endregion
     internal class Assignment03
     {
