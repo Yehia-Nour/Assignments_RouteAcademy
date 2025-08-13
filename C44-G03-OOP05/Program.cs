@@ -32,7 +32,6 @@
             //pushService.SendNotification("Yehia28", "You have a new friend request.");
             #endregion
 
-
         }
     }
 }
