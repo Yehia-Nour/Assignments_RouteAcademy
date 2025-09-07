@@ -186,11 +186,15 @@ namespace C44_G03_Linq01
 
             //var query = words.Select(w => new { Upper = w.ToUpper(), Lower = w.ToLower() });
 
+            //foreach (var item in query)
+            //    Console.WriteLine(item);
 
             // 3. Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
             //var query = ProductsList
             //    .Select(p => new { p.ProductName, Price = p.UnitPrice });
 
+            //foreach (var item in query)
+            //    Console.WriteLine(item);
 
 
             // 4. Determine if the value of int in an array matches their position in the array.
@@ -198,6 +202,8 @@ namespace C44_G03_Linq01
 
             //var query = Arr.Where((num, index) => num == index);
 
+            //foreach (var item in query)
+            //    Console.WriteLine(item);
 
 
             // 5. Returns all pairs of numbers from both arrays such that the number from numbersA is less than the number from numbersB.
@@ -214,12 +220,15 @@ namespace C44_G03_Linq01
             // 6. Select all orders where the order total is less than 500.00.
             //var query = OrdersList.Where(o => o.Total < 500);
 
+            //foreach (var item in query)
+            //    Console.WriteLine(item);
 
 
             // 7. Select all orders where the order was made in 1998 or later.
             //var query = OrdersList.Where(o => o.OrderDate.Year >= 1998);
 
-
+            //foreach (var item in query)
+            //    Console.WriteLine(item);
             #endregion
         }
     }
