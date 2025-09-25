@@ -12,7 +12,12 @@ namespace C44_G03_EF01.Data
     {
         public ITIDbContext() : base()
         {
-            
+
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
